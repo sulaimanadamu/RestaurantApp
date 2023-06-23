@@ -1,0 +1,253 @@
+body{
+    margin: 10px 15%;
+    position: relative;
+    /* border: 2px solid red; */
+    border: 2px solid red;
+}
+
+.blur{
+    filter: blur(5px);
+}
+
+.undisplay{
+    display: none;
+}
+/* header style */
+header{
+    border: 2px solid black;
+    background-image: url("./images/new-chiness.jpg");
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.restaurant-signature{
+    margin: 2em 60px;
+    line-height: 12px;
+    font-kerning: 50px;
+    color: whitesmoke;
+    border: 2px solid purple;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+.restaurant-name{
+    font-size: 2.6rem;
+    font-weight:bolder;
+}
+
+#slogan{
+    font-size: 1.5rem;
+    font-weight:bold;
+    font-family:'Instrument Serif', serif;
+    font-style: italic;
+}
+
+#chi{
+    margin-left: 1.85em;
+}
+#shop, #chi{
+    margin-top: 0;
+}
+
+/* store items style */
+.shop-interface, .width{
+    width: 90%;
+    margin: auto;
+}
+.main-detail{
+    filter:blur(5px);
+}
+.product-img{
+    width: 120px;
+    padding: 15px;
+}
+
+/* .flex{
+    display: block flex;
+    
+} */
+.product-details{
+    padding: 36px 0 38px 35px;
+}
+
+.product-name{
+    font-size: 32px;
+}
+
+.display{
+    margin: 0;
+}
+
+.product-flavors{
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+    color: #8B8B8B;
+}
+
+.product-price{
+    font-size: 28px;
+}
+
+.without-add-btn,.flex,.space-between,.item-order{
+    display: flex;
+}
+
+.flex{
+    justify-content: space-between;
+    border-bottom: 2px solid #D2D2D2;
+}
+.order{
+    margin: 0;
+}
+
+.add{
+    font-size: 50px;
+    font-weight: 600;
+    border: 1px solid gray;
+    align-self: center;
+    padding: 5px 20px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+/*order Ticket design */
+.ticket-order{
+    width: 90%;
+    margin: 0 40px 20px 50px;
+}
+
+.label{
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.item-order{
+    align-items: center;
+}
+
+
+.ticket-label{
+    text-align: center;
+    font-size: 2em;
+    line-height: 18px;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order{
+    border-bottom: 2px solid gray;
+    margin: 0;
+    /* margin: auto; */
+}
+
+.remove-btn{
+    margin-left: 10px;
+    font-size: 1.1em;
+    border: none;
+    font-weight: 400;
+}
+
+.order-btn,.complimentary{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 30px 0;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background-color: #16DB99;
+    border-radius: 5px;
+}
+
+.complimentary{
+    background-color: #ECFDF5;
+    color: #065F46;
+}
+
+
+/* font style */
+.payment-form,.restaurant-signature{font-family: 'Titillium Web', sans-serif;}
+/* form style */
+.payment-form{
+    padding: 20px 30px;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    /* top: 20em;
+    left:  16em;
+    right: 25em;    */
+    /* margin: auto; */
+    top: 10em;
+    left: 20em;
+    right: 20em;
+    box-shadow: -7px 20px 71px 6px rgba(28,13,13,0.88);
+    
+    width: 36rem;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.input-space{
+    width: 90%;
+    height: 60px;
+    padding: 10px 8px;
+    border: 2px solid #757575;
+    margin: 15px 50px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+form{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.payment-details{
+    padding: 30px;
+    margin: 0;
+}
+
+.payBtn{
+    color: white;
+    background-color: #16DB99;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 92%;
+    margin: 20px  5px;
+}
+
+
+.without-add-btn{
+    width: fit-content;
+}
+/* typography */
+.flex {
+    margin: 40px 50px;
+}
+.store-item{
+    display: block;
+}
+
+.rotate{
+    width:max-content;
+    transform: rotate(45deg);
+    border: none;
+    font-size: 6em;
+    font-weight:lighter;
+    color:#454343;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    right: 15px;
+    margin-right: 10px;
+}

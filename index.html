@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="shop">
+    <header>
+        <div class='restaurant-signature' id="restaurant-signature">
+            <h1 class='restaurant-name' id="urban">URBAN</h1>
+            <h2 class='restaurant-name' id="chi">CHI</h1>
+            <h3 class='restaurant-name' id="shop">SHOP</h1>
+            <p id="slogan">Visit china in a Plate</p>
+        </div>
+    </header>
+    <main class="shop-interface">
+            <section id="product-listing">
+                
+            </section>
+
+            <section>
+                <div class="undisplay" id="cart">
+                <div class="ticket-order" id="all-selected-meals">
+                    <h1 class="ticket-label label">Your order</h1>
+                    
+                </div>
+
+                <div class="total-cost space-between width">
+                    <h1 class="label">Total price</h1>
+                    <h1 class="label price" id="total-price">$0</h1>
+                </div>
+                </div>
+
+                <div class="order-btn width" id="meal-cheque">complete order</div>
+            </section>
+
+            <section>
+                <div class="complimentary width undisplay" id="complimentary">Thanks, James! Your order is on its way!</div>
+            </section>
+        </div>
+    <section class="payment-form undisplay" id="payment-details">
+        <h1 class="payment-details">Enter card details</h1>
+        <form action="#">
+            <input name="card-owner" class="input-space" placeholder="Enter Your name" type="text" required>
+            <input name="card-number" type="text" placeholder="Enter card number" class="input-space"name="card-number" id="card-number" required>
+            <input type="text" placeholder="Enter CVV" class="input-space"name="cvv" id="cvv" required>
+            <button class="payBtn" id="pay-bills">Pay</button>
+        </form>
+        <button class="add rotate" id="cancel">+</button>
+    </section>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
